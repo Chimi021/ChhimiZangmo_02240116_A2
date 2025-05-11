@@ -4,9 +4,6 @@
 
 from random import randint
 
-
-from random import randint
-
 class Guess_the_Number_Game:
     def __init__(self, max_number = 100, min_number = 0):
         self.max_number = max_number    
@@ -58,7 +55,7 @@ def play_Guess_the_Number_Game():
     print("You have to guess a number between 0 and 100.")
     print("You will get a score based on how close your guesses are to the target number.")
     print ("Scoring system:")
-    print ("10 points for finding the target, 5 points for within 5 of target, 4 points for within 10 of target, 3 points for within 15 taget, 2 points for within 20 target, and 1 point for within 25 target range.")
+    print ("10 points for finding the target, \n5 points for within 5 of target, 4 \npoints for within 10 of target, \n3 points for within 15 taget, \n2 points for within 20 target, \n1 point for within 25 target range.")
 
     game = Guess_the_Number_Game()
     while True:
